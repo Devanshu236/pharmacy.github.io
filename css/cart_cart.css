@@ -1,0 +1,21 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
+body{
+    background: url('medicbg.jpg') no-repeat center center/cover ;
+    font-family: 'Cinzel', serif;
+    
+}
+
+.farm{
+    margin:-550px 0px 0px 650px;
+    padding:10px 10px 10px 10px;
+}
+
+input{
+    height: 25px;
+    width: 250px;
+}

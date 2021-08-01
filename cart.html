@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <div class="shopping-cart">
+        <!-- Title -->
+        <div class="title">
+          Shopping Bag
+        </div>
+       
+        <!-- Product #1 -->
+        <div class="item">
+          <div class="buttons">
+            <span class="delete-btn"></span>
+            <span class="like-btn"></span>
+          </div>
+       
+          <div class="image">
+            <img src="item-1.png" alt="" />
+          </div>
+       
+          <div class="description">
+            <span>Lisinopril (Generic for Prinivil or Zestril)</span>
+            <span>For Tuberculosis</span>
+            <span>650mg</span>
+          </div>
+       
+          <div class="quantity">
+            <button class="plus-btn" type="button" name="button">
+              <img src="plus.svg" alt="" />
+            </button>
+            <input type="text" name="name" value="1">
+            <button class="minus-btn" type="button" name="button">
+              <img src="minus.svg" alt="" />
+            </button>
+          </div>
+       
+          <div class="total-price">Rs549</div>
+        </div>
+       
+        <!-- Product #2 -->
+        <div class="item">
+          <div class="buttons">
+            <span class="delete-btn"></span>
+            <span class="like-btn"></span>
+          </div>
+       
+          <div class="image">
+            <img src="item-2.png" alt=""/>
+          </div>
+       
+          <div class="description">
+            <span>Paracetamol</span>
+            <span>For Fever</span>
+            <span>Mg</span>
+          </div>
+       
+          <div class="quantity">
+            <button class="plus-btn" type="button" name="button">
+              <img src="plus.svg" alt="" />
+            </button>
+            <input type="text" name="name" value="1">
+            <button class="minus-btn" type="button" name="button">
+              <img src="minus.svg" alt="" />
+            </button>
+          </div>
+       
+          <div class="total-price">Rs870</div>
+        </div>
+       
+        <!-- Product #3 -->
+        <div class="item">
+          <div class="buttons">
+            <span class="delete-btn"></span>
+            <span class="like-btn"></span>
+          </div>
+       
+          <div class="image">
+            <img src="item-3.png" alt="" />
+          </div>
+       
+          <div class="description">
+            <span>Zinc Covid</span>
+            <span>Brushed carf</span>
+            <span>500mg</span>
+          </div>
+       
+          <div class="quantity">
+            <button class="plus-btn" type="button" name="button">
+              <img src="plus.svg" alt="" />
+            </button>
+            <input type="text" name="name" value="1">
+            <button class="minus-btn" type="button" name="button">
+              <img src="minus.svg" alt="" />
+            </button>
+          </div>
+       
+          <div class="total-price">Rs349</div>
+        </div>
+      </div>
+
+     
+
+      <script>
+          $('.like-btn').on('click', function() {
+   $(this).toggleClass('is-active');
+});
+
+
+      </script>
+    
+</body>
+</html>
